@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "WellNUS",
+    "scheme": "WellNUS",
     "slug": "WellNUS",
     "version": "1.0.0",
     "orientation": "portrait",

@@ -1,12 +1,16 @@
 {
   "name": "wellnus",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
+  },
+  "overrides": {
+    "metro": "0.76.0",
+    "metro-resolver": "0.76.0"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.17.11",
@@ -26,6 +30,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "react-native-dotenv": "^3.4.8"
   },
   "private": true
