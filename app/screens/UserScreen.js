@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, Text, TextInput, View, Alert } from 'react-nativ
 import React, { useLayoutEffect, useState } from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import { savedServices } from '../SavedReducer';
+import { savedServices } from '../../SavedReducer';
 
 const UserScreen = ({ time, selectedDates, property, available }) => {
   const navigation = useNavigation();
