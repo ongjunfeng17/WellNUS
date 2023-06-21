@@ -1,14 +1,8 @@
 {
   "expo": {
-<<<<<<< HEAD
     "name": "WellNUS1",
     "slug": "WellNUS1",
     "scheme": "WellNUS1",
-=======
-    "name": "WellNUS",
-    "scheme": "WellNUS",
-    "slug": "WellNUS",
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

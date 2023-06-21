@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { supabase } from "../../lib/supabase";
-<<<<<<< HEAD
 import { View, Alert } from "react-native";
-=======
-import { View } from "react-native";
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
 import { Text, TextInput, ActivityIndicator, Button } from 'react-native-paper';
 
 export default function Register() {
@@ -14,7 +10,6 @@ export default function Register() {
     const [errMsg, setErrMsg] = useState('');
 
     const handleSubmit = async () => {
-<<<<<<< HEAD
         if (email == "" || password == '') {
             Alert.alert(
                 'Invalid Details',
@@ -34,8 +29,6 @@ export default function Register() {
                 },
             );
         }
-=======
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
         if (email == '') {
             setErrMsg("email cannot be empty")
             return;
@@ -55,34 +48,21 @@ export default function Register() {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center' }}>
-<<<<<<< HEAD
             <Text style={{ color: "gray", fontSize: 17, fontWeight: "600" }}>Email</Text>
-=======
-            <Text>Email</Text>
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
             <TextInput
                 autoCapitalize='none'
                 textContentType='emailAddress'
                 value={email}
                 onChangeText={setEmail} />
-<<<<<<< HEAD
             <Text style={{ color: "gray", fontSize: 17, fontWeight: "600" }}>Password</Text>
-=======
-            <Text>Password</Text>
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
             <TextInput
                 secureTextEntry
                 autoCapitalize='none'
                 textContentType='password'
                 value={password}
                 onChangeText={setPassword} />
-<<<<<<< HEAD
             <Button labelStyle={{ fontSize: 17 }} onPress={handleSubmit}>Submit</Button>
             {/* {errMsg !== "" && <Text>{errMsg}</Text>} */}
-=======
-            <Button onPress={handleSubmit}>Submit</Button>
-            {errMsg !== "" && <Text>{errMsg}</Text>}
->>>>>>> 720386fd9cd3e896d7c32b3a5a043d6742f79cc9
             {loading && <ActivityIndicator />}
         </View>
     );
