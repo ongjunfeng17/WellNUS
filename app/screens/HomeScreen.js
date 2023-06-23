@@ -135,6 +135,8 @@ const HomeScreen = () => {
                     marginRight: "auto"
                   }
                 }}
+                blockBefore={true}
+                markText={"Select Your Dates"}
                 selectedBgColor="#0047AB"
                 customButton={(onConfirm) => customButton(onConfirm)}
                 onConfirm={(startDate, endDate) => setSelectedDates(startDate, endDate)}
