@@ -5,19 +5,14 @@ The WellNUS App is a mobile application designed to facilitate seamless communic
 
 ## Features
 1. Authentication System
-   
 Supports the use of an authentication server for validating user credentials and confirming the user's identity. 
 2. Events and Announcements 📢
-   
 Users are greeted with organized events and important dates, ensuring they stay up-to-date with UHC activities.
 3. Employee Directory
-   
 A comprehensive employee directory allows users to easily search and find information regarding doctors and psychiatrists, such as ratings and contact information.
 4. Appointment Booking 🩺
-   
 Users can book a medical appointment through the app (minimally a day in advance) with their preferred practitioner and head over (10-15 mins) before their appointment time, thereby saving them a sizeable amount of waiting time (up to 1.5 hrs).
 5. Calender 📆
-   
 Users can access an organized calendar of their appointment dates and times, allowing them to cancel, reschedule or view their booked appointments. 
   
 ## Features coming in the future
